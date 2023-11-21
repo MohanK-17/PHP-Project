@@ -2,5 +2,5 @@
 
 function load_template($name)
 {
-    include __DIR__ . "/../__templates/$name.php";
+    include $_SERVER['DOCUMENT_ROOT'] . "/web/__templates/$name.php";
 }
